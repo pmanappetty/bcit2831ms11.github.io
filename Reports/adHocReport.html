@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>A1-IS HOME</title>
+  <link rel="shortcut icon" href="../Image/title.jpg" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="addHoc.css">
+</head>
+<body>
+
+  <div class="header">
+    <h1>A1 Portal</h1>
+    <p>Innovating Technology for change</p>
+  </div>
+
+  <div class="navbar">
+    <a href="../HomePage/homepage.html" >Home</a>
+    <a href="../Team/team.html">Team</a>
+
+    <div class="dropdown" id="dropdowntag">
+      <button class="dropbtn">Employees</button>
+      <div class="dropdown-content">
+        <a href="../Employees/employee.html">Employees</a>
+        <a href="../Employees/addEmployee.html">Add Employees</a>
+      </div>
+    </div>
+    <div class="dropdownR">
+      <button class="dropbtnR">Reports</button>
+      <div class="dropdown-content">
+        <a href="reports.html">Available Reports</a>
+        <a href="#">AD Hoc Reports</a>
+      </div>
+    </div>
+    <a href="../index.html" class="right">Sign out</a>
+  </div>
+
+  <div class="row">
+
+
+    <div class="main">
+      <h1>AD HOC Reports</h1>
+      <p><i>The download will only produce list of employees who contributed to the United funds</i></p></br>
+      <form id="form">
+        <select id="name">
+          <option selected="selected" style=" display: none;">Name</option>
+          <option value="volvo">First and Last Name</option>
+          <option value="saab">First Name</option>
+          <option value="mercedes">Last Name</option>
+        </select>
+        <select id="Title">
+          <option selected="selected" style=" display: none;">Title</option>
+          <option value="volvo">Vice President</option>
+          <option value="saab">Director</option>
+          <option value="mercedes">Manager</option>
+          <option value="mercedes">Supervisor</option>
+          <option value="mercedes">Employee</option>
+          <option value="mercedes">All</option>
+        </select>
+        <select id="Location">
+          <option selected="selected" style=" display: none;">Location</option>
+          <option value="AL">Alabama</option>
+          <option value="AK">Alaska</option>
+          <option value="AZ">Arizona</option>
+          <option value="AR">Arkansas</option>
+          <option value="CA">California</option>
+          <option value="CO">Colorado</option>
+          <option value="CT">Connecticut</option>
+          <option value="DE">Delaware</option>
+          <option value="DC">District Of Columbia</option>
+          <option value="FL">Florida</option>
+          <option value="GA">Georgia</option>
+          <option value="HI">Hawaii</option>
+          <option value="ID">Idaho</option>
+          <option value="IL">Illinois</option>
+          <option value="IN">Indiana</option>
+          <option value="IA">Iowa</option>
+          <option value="KS">Kansas</option>
+          <option value="KY">Kentucky</option>
+          <option value="LA">Louisiana</option>
+          <option value="ME">Maine</option>
+          <option value="MD">Maryland</option>
+          <option value="MA">Massachusetts</option>
+          <option value="MI">Michigan</option>
+          <option value="MN">Minnesota</option>
+          <option value="MS">Mississippi</option>
+          <option value="MO">Missouri</option>
+          <option value="MT">Montana</option>
+          <option value="NE">Nebraska</option>
+          <option value="NV">Nevada</option>
+          <option value="NH">New Hampshire</option>
+          <option value="NJ">New Jersey</option>
+          <option value="NM">New Mexico</option>
+          <option value="NY">New York</option>
+          <option value="NC">North Carolina</option>
+          <option value="ND">North Dakota</option>
+          <option value="OH">Ohio</option>
+          <option value="OK">Oklahoma</option>
+          <option value="OR">Oregon</option>
+          <option value="PA">Pennsylvania</option>
+          <option value="RI">Rhode Island</option>
+          <option value="SC">South Carolina</option>
+          <option value="SD">South Dakota</option>
+          <option value="TN">Tennessee</option>
+          <option value="TX">Texas</option>
+          <option value="UT">Utah</option>
+          <option value="VT">Vermont</option>
+          <option value="VA">Virginia</option>
+          <option value="WA">Washington</option>
+          <option value="WV">West Virginia</option>
+          <option value="WI">Wisconsin</option>
+          <option value="WY">Wyoming</option>
+        </select>
+        <input type="number" placeholder="Amount">
+        <input type="date" placeholder="Date">
+        <button class="btn" onclick="window.open('CustomReport.xlsx')"><i class="fa fa-download" ></i> Download</button>
+      </form>
+      <!--<img src="../Image/employeeDirectory.png" alt="Employee Directory">-->
+    </div>
+  </div>
+
+
+
+</body>
+</html>
