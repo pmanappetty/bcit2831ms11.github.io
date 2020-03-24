@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>A1-IS HOME</title>
+  <link rel="shortcut icon" href="../Image/title.jpg" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="reports.css">
+</head>
+<body>
+
+  <div class="header">
+    <h1>A1 Portal</h1>
+    <p>Innovating Technology for change</p>
+  </div>
+
+  <div class="navbar">
+    <a href="../HomePage/homepage.html" >Home</a>
+    <a href="../Team/team.html">Team</a>
+    <!--<a href="#" class="a1">Employees</a> This will include:
+    Employee Search
+    Data Entry-->
+    <div class="dropdown" id="dropdowntag">
+      <button class="dropbtn">Employees</button>
+      <div class="dropdown-content">
+        <a href="../Employees/employee.html">Employees</a>
+        <a href="../Employees/addEmployee.html">Add Employees</a>
+      </div>
+    </div>
+    <div class="dropdownR">
+      <button class="dropbtnR">Reports</button>
+      <div class="dropdown-content">
+        <a href="#">Available Reports</a>
+        <a href="adHocReport.html">AD Hoc Reports</a>
+      </div>
+    </div>
+    <a href="../index.html" class="right">Sign out</a>
+  </div>
+
+  <div class="row">
+    <!--<div class="side">
+      <h2>Add Employees</h2>
+      <h5>Photo of me:</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+      <h3>More Text</h3>
+      <p>Lorem ipsum dolor sit ame.</p>
+      <div class="fakeimg" style="height:60px;">Image</div><br>
+      <div class="fakeimg" style="height:60px;">Image</div><br>
+      <div class="fakeimg" style="height:60px;">Image</div>
+
+    </div>
+    -->
+
+    <div class="main">
+      <h1>Available Reports</h1>
+      <p><i>Note: The download will only print "New Hires"</i></p></br>
+      <h3><u>Select a report at a time and click download to generate result</u></h3>
+      <form id="form">
+        <input type="checkbox" id="first" name="first">
+        <label for="last">New Hire Budget/Analysis</label></br>
+        <input type="checkbox" id="first" name="first">
+        <label for="last">Terminations Budget/Analysis</label></br>
+        <input type="checkbox" id="first" name="first">
+        <label for="last">Rehired Terminations Budget/Analysis</label></br>
+        <input type="checkbox" id="first" name="first">
+        <label for="last">Turnover</label></br>
+        <input type="checkbox" id="first" name="first">
+        <label for="last">Paid Leave Analysis</label></br>
+        <input type="checkbox" id="first" name="first">
+        <label for="last">Leave Administration</label></br>
+        <input type="checkbox" id="first" name="first">
+        <label for="last">Employee Change History</label></br>
+        <input type="checkbox" id="first" name="first">
+        <label for="last">Status Change</label></br>
+        <input type="checkbox" id="first" name="first">
+        <label for="last">New Hires</label></br>
+        <input type="checkbox" id="first" name="first">
+        <label for="last">Employee Transfers</label></br>
+        <button class="btn" onclick="window.open('NewHires.xlsx')"><i class="fa fa-download" ></i> Download</button>
+      </form>
+      <!--<img src="../Image/employeeDirectory.png" alt="Employee Directory">-->
+    </div>
+  </div>
+
+
+
+</body>
+</html>
